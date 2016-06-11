@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+#preloader{position:fixed;left:40%; top:40%; display:none}
+</style>
+</head>
+
+<body>
+<div id="top-div">
+	<figure title="Troy Infotech Icon" >
+    	<img src="http://www.kinvey.com/blog/images/2013/09/may-the-source-be-with-you_open-source.jpg" alt="Troy Iamges"/>
+    </figure>
+    <figure title="Troy Infotech Icon" >
+    	<img src="http://www.indiawaterportal.org/sites/indiawaterportal.org/files/styles/node_lead_image_new/public/banethi_spring.jpg?itok=JL7In9-w" alt="Troy Iamges"/>
+    </figure>
+     <figure title="Troy Infotech Icon" >
+    	<img src="http://www.intrawallpaper.com/static/images/pier_1080_lglraL5.jpg" alt="Troy Iamges"/>
+    </figure>
+    <figure title="Troy Infotech Icon" >
+    	<img src="http://www.planwallpaper.com/static/images/wallpapers-hd-8000-8331-hd-wallpapers.jpg" alt="Troy Iamges"/>
+    </figure>
+    <figure title="Troy Infotech Icon" >
+    	<img src="https://newevolutiondesigns.com/images/freebies/tropical-beach-background-8.jpg" alt="Troy Iamges"/>
+    </figure>
+    <figure title="Troy Infotech Icon" >
+    	<img src="http://www.planwallpaper.com/static/images/autumn-hd-wallpaper.jpg" alt="Troy Iamges"/>
+    </figure>
+    
+</div>
+<div id="preloader">
+    <img src="332.gif"/>
+    </div>
+<script type="text/javascript">
+	if(document.readyState==="loading")
+	{ 
+	document.getElementById("preloader").style.display="block";
+	document.getElementById("top-div").style.display="none";
+	}
+	document.onreadystatechange=function()
+	{
+		if(document.readyState==="complete")
+		{
+		document.getElementById("preloader").style.display="none";
+		document.getElementById("top-div").style.display="block";
+		}
+	}
+</script>
+</body>
+</html>
